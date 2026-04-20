@@ -115,7 +115,7 @@ export default function Home() {
             </Text>
           </View>
 
-          {/* Button */}
+         
           <TouchableOpacity
             activeOpacity={0.85}
             onPress={() => router.push("/(tabs)/History")}
