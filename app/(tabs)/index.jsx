@@ -91,7 +91,10 @@ export default function Index() {
               <View className="space-y-4">
 
                 <View className="flex-row items-center p-2">
-                  <FontAwesome6 name="bolt-lightning" size={26} color="blue" />
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                    <FontAwesome6 name="bolt-lightning" size={26} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg">
                       10 free jumpstarts
@@ -104,7 +107,10 @@ export default function Index() {
 
 
                 <View className="flex-row items-center p-2">
-                  <AntDesign name="percentage" size={26} color="blue" />
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                    <AntDesign name="percentage" size={26} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg">
                       20% discount on all labor
@@ -117,7 +123,10 @@ export default function Index() {
 
 
                 <View className="flex-row items-center p-2">
-                  <FontAwesome5 name="clock" size={26} color="blue" />
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                    <FontAwesome5 name="clock" size={26} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg">
                       Priority 15-min dispatch
@@ -130,7 +139,10 @@ export default function Index() {
 
 
                 <View className="flex-row items-center p-2">
-                  <AntDesign name="customer-service" size={26} color="blue" />
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                    <AntDesign name="customer-service" size={26} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg">
                       Dedicated 24/7 concierge
@@ -165,7 +177,10 @@ export default function Index() {
               <View className="space-y-4">
 
                 <View className="flex-row items-start p-2">
-                 <FontAwesome6 name="bolt-lightning" size={24} color="blue" />
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                    <FontAwesome6 name="bolt-lightning" size={24} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg ">Unlimited free jumpstarts</Text>
                     <Text className="text-gray-500 text-sm">
@@ -176,7 +191,10 @@ export default function Index() {
 
 
                 <View className="flex-row items-start p-2">
-                 <AntDesign name="percentage" size={24} color="blue" />
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                    <AntDesign name="percentage" size={24} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg">30% discount on all labor</Text>
                     <Text className="text-gray-500 text-sm">
@@ -187,7 +205,10 @@ export default function Index() {
 
 
                 <View className="flex-row items-start p-2">
-                  <FontAwesome5 name="clock" size={24} color="blue" />
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                    <FontAwesome5 name="clock" size={24} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg">Priority 10-min dispatch</Text>
                     <Text className="text-gray-500 text-sm">
@@ -198,7 +219,10 @@ export default function Index() {
 
 
                 <View className="flex-row items-start p-2">
+                  <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
                     <AntDesign name="customer-service" size={26} color="blue" />
+                  </View>
                   <View className="ml-3 flex-1">
                     <Text className="font-bold text-black text-lg">Dedicated 24/7 concierge</Text>
                     <Text className="text-gray-500 text-sm">
@@ -220,7 +244,7 @@ export default function Index() {
         )}
 
         <View className="flex-row justify-between m-4">
-              
+
           <View className="bg-gray-100 rounded-2xl p-4 flex-1 mx-1 justify-center items-center">
             <AntDesign name="check-square" size={24} color="blue" className="mb-2" />
             <Text className="text-black text-base font-semibold mb-1 text-center">
@@ -250,6 +274,6 @@ export default function Index() {
         </View>
       </ScrollView>
     </SafeAreaView>
-    
+
   )
 }
