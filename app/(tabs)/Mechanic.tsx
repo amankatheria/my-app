@@ -157,7 +157,7 @@ export default function Mechanic() {
 
 
                     <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
-                        <AntDesign name="percentage" size={24} color="black" />
+                        <AntDesign name="percentage" size={24} color="blue" />
                     </View>
 
 
@@ -176,7 +176,7 @@ export default function Mechanic() {
 
 
                     <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
-                        <AntDesign name="star" size={24} color="black" />
+                        <AntDesign name="star" size={24} color="blue" />
                     </View>
 
 
@@ -194,7 +194,7 @@ export default function Mechanic() {
 
 
                     <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
-                        <EvilIcons name="search" size={24} color="black" />
+                        <EvilIcons name="search" size={24} color="blue" />
                     </View>
 
 
@@ -212,7 +212,7 @@ export default function Mechanic() {
 
 
                     <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
-                        <AntDesign name="customer-service" size={24} color="black" />
+                        <AntDesign name="customer-service" size={24} color="blue" />
                     </View>
 
 

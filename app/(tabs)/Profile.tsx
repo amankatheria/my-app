@@ -22,7 +22,7 @@ export default function Profile() {
                 <TouchableOpacity onPress={() => router.push("/(tabs)/History")} className="mt-1">
                     <Ionicons name="arrow-back" size={29} color="blue" />
                 </TouchableOpacity>
-                <FontAwesome name="delicious" size={28} color="blue" className="left-4" />
+                <MaterialIcons name="security" size={28} color="blue" className="left-4" />
                 <Text className="font-bold text-xl text-blue-700 left-10">Roadside Rescue</Text>
                 <View className=" flex-1 items-end right-4">
                     <Image source={{ uri: `https://i.pravatar.cc/160?u=` }}
@@ -41,7 +41,10 @@ export default function Profile() {
                         <View className="w-full bg-white rounded-2xl p-5 shadow-lg">
 
                             <View className="mb-4">
-                                <Feather name="cloud-lightning" size={26} color="blue" />
+                                <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+
+                                    <Feather name="cloud-lightning" size={26} color="blue" />
+                                </View>
                             </View>
 
                             <View className=" mb-4 flex-col">
@@ -67,7 +70,7 @@ export default function Profile() {
 
                             <View className="mb-3 bg-white rounded-2xl p-5 shadow-lg">
                                 <View className="flex-row items-center">
-                                   <AntDesign name="check-circle" size={24} color="blue" />
+                                    <AntDesign name="check-circle" size={24} color="blue" />
                                     <View className="ml-3">
                                         <Text className="text-gray-800 font-semibold text-xl">
                                             GDPR Ready
@@ -82,7 +85,7 @@ export default function Profile() {
 
                             <View className="bg-white rounded-2xl p-5 shadow-lg">
                                 <View className="flex-row items-center">
-                                     <AntDesign name="check-circle" size={24} color="blue" />
+                                    <AntDesign name="check-circle" size={24} color="blue" />
                                     <View className="ml-3">
                                         <Text className="text-gray-800 font-semibold text-xl">
                                             CCPA Compliant
@@ -120,9 +123,10 @@ export default function Profile() {
 
 
                             <View className="flex-row mt-4 items-start">
+                                <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
 
-                                 <Entypo name="location" size={24} color="blue" />
-
+                                    <Entypo name="location" size={24} color="blue" />
+                                </View>
                                 <View className="ml-3 flex-1">
 
                                     <View className="flex-row justify-between items-center">
@@ -151,9 +155,10 @@ export default function Profile() {
 
                             <View className="flex-row mt-4 items-start">
 
+                                <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
 
-                             <MaterialIcons name="payments" size={24} color="blue" />
-
+                                    <MaterialIcons name="payments" size={24} color="blue" />
+                                </View>
                                 <View className="ml-3 flex-1">
 
                                     <View className="flex-row justify-between items-center">
@@ -182,9 +187,9 @@ export default function Profile() {
                             </View>
                             <View className="flex-row mt-4 items-start">
 
-
-                                <AntDesign name="customer-service" size={24} color="blue" />
-
+                                <View className="bg-gray-100 w-12 h-12 rounded-2xl items-center justify-center mb-4">
+                                    <AntDesign name="customer-service" size={24} color="blue" />
+                                </View>
                                 <View className="ml-3 flex-1">
 
                                     <View className="flex-row justify-between items-center">
